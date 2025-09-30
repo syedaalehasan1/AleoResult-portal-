@@ -1,0 +1,39 @@
+{
+  "name": "student-result-portal",
+  "version": "1.0.0",
+  "description": "A student result portal with admin panel for result management",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s .",
+    "dev": "live-server --port=3000",
+    "deploy": "npm run build && surge ./dist --domain student-result-portal.surge.sh"
+  },
+  "keywords": [
+    "student",
+    "result",
+    "portal",
+    "education",
+    "supabase"
+  ],
+  "author": "Student Portal Team",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3",
+    "live-server": "^1.2.2",
+    "surge": "^0.23.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/student-result-portal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/student-result-portal/issues"
+  },
+  "homepage": "https://github.com/your-username/student-result-portal#readme"
+}
